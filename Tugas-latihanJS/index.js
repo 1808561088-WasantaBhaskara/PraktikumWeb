@@ -4,7 +4,8 @@ I Made Wasanta Bhaskara (1808561088)
 Made Rusdinda Hartani (1808561093)
 */
 
-/* https://www.codewars.com/kata/559d2284b5bb6799e9000047
+/* Add Length 
+https://www.codewars.com/kata/559d2284b5bb6799e9000047
 1. Description:
 What if we need the length of the words separated by a space to be added at the end of that same word and have it returned as an array?
 
@@ -22,7 +23,8 @@ function addLength(str) {
 console.log(addLength('apple ban'))
 console.log(addLength('you will win'))
 
-/* https://www.codewars.com/kata/57642a90dee2da8dd3000161
+/* Arguments to Binary addition
+https://www.codewars.com/kata/57642a90dee2da8dd3000161
 2. Description:
 Given an array add all the number elements and return the binary equivalent of that sum; to make the code bullet proof anything else than a number should be addeded as 0 since it can't be addeded.
 
@@ -49,7 +51,8 @@ console.log(arr2bin([1,2]))
 console.log(arr2bin([1,2,3,4,5]))
 console.log(arr2bin([null]))
 
-/* https://www.codewars.com/kata/57356c55867b9b7a60000bd7
+/* Basic Mathematical Operations
+https://www.codewars.com/kata/57356c55867b9b7a60000bd7
 3. Description:
 Your task is to create a function that does four basic mathematical operations.
 
@@ -73,7 +76,8 @@ console.log(basicOp('-', 15, 18))
 console.log(basicOp('*', 5, 5))
 console.log(basicOp('/', 49, 7))
 
-/* https://www.codewars.com/kata/55f9b48403f6b87a7c0000bd
+/* Beginner Series #1 School Paperwork
+https://www.codewars.com/kata/55f9b48403f6b87a7c0000bd
 4. Description:
 Your classmates asked you to copy some paperwork for them. You know that there are 'n' classmates and the paperwork has 'm' pages.
 
@@ -90,7 +94,8 @@ function paperwork(n, m) {
 
 console.log(paperwork(5,5))
 
-/* https://www.codewars.com/kata/57a429e253ba3381850000fb
+/* Calculate BMI
+https://www.codewars.com/kata/57a429e253ba3381850000fb
 5. Description:
 Write function bmi that calculates body mass index (bmi = weight / height ^ 2).
 
@@ -109,7 +114,8 @@ const bmi = (w, h, bmi = w/h/h) =>  bmi <= 18.5 ? "Underweight" :
                                     
 console.log(bmi(80, 1.80))
 
-/* https://www.codewars.com/kata/5a3fe3dde1ce0e8ed6000097
+/* Century From Year
+https://www.codewars.com/kata/5a3fe3dde1ce0e8ed6000097
 6. Description:
 Introduction
 The first century spans from the year 1 up to and including the year 100, The second - from the year 101 up to and including the year 200, etc.
@@ -134,7 +140,8 @@ console.log(century(1900))
 console.log(century(1601))
 console.log(century(2000))
 
-/* https://www.codewars.com/kata/5a3dd29055519e23ec000074
+/* Check the exam
+https://www.codewars.com/kata/5a3dd29055519e23ec000074
 7. Description:
 The first input array contains the correct answers to an exam, like ["a", "a", "b", "d"]. The second one is "answers" array and contains student's answers.
 
@@ -167,7 +174,8 @@ console.log(checkExam(["a", "a", "c", "b"], ["a", "a", "b",  ""]))
 console.log(checkExam(["a", "a", "b", "c"], ["a", "a", "b", "c"]))
 console.log(checkExam(["b", "c", "b", "a"], ["",  "a", "a", "c"]))
 
-/* https://www.codewars.com/kata/5265326f5fda8eb1160004c8
+/* Convert a Number to a String!
+https://www.codewars.com/kata/5265326f5fda8eb1160004c8
 8. We need a function that can transform a number into a string.
 
 What ways of achieving this do you know?
@@ -183,7 +191,8 @@ function numberToString(num) {
 
 console.log(numberToString(67))
 
-/* https://www.codewars.com/kata/56d6c333c9ae3fc32800070f
+/* Days in the year
+https://www.codewars.com/kata/56d6c333c9ae3fc32800070f
 9. Description:
 A variation of determining leap years, assuming only integers are used and years can be negative and positive.
 
@@ -213,7 +222,8 @@ const yearDays = year =>
   console.log(yearDays(666))
   console.log(yearDays(1857))
 
-/* https://www.codewars.com/kata/5810085c533d69f4980001cf
+/* simple calculator
+https://www.codewars.com/kata/5810085c533d69f4980001cf
 10. Description:
 You are required to create a simple calculator that returns the result of addition, subtraction, multiplication or division of two numbers.
 
