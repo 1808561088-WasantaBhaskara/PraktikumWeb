@@ -1,0 +1,85 @@
+body{
+    background-image: linear-gradient(to right, #25614a, #363333, #369242);
+    font-family: serif;
+    font-weight: bold;
+}
+
+.container{
+    width: 400px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: radial-gradient(#474742, #a8a624);
+    border-radius: 20px;
+}
+
+input{
+    font-family: serif;
+    background: white;
+    border: #645308 solid 5px;
+    text-align: right;
+    padding-right: 10px;
+    font-size: 24px;
+    color: #404040;
+    border-radius: 15px;
+    width: 72%;
+    height: 40px;
+    margin-top: 10px;
+}
+
+input[type=number]::-webkit-inner-spin-button{
+    padding-right: 10px;
+    margin-left: 10px;
+  }
+
+.operator-container{
+    margin-top: 10px;
+    width: 90%;
+    height: 35%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.operator-container button{
+    border: #645308 solid 5px;
+    background: #F0F0F0;
+    width: 24%;
+    height: 46%;
+    border-radius: 100%;
+    margin: 2%;
+    text-align: center;
+    color: #404040;
+    font-size: 50px;
+}
+
+.hasil{
+    background: #F0F0F0;
+    border: #645308 solid 5px;
+    border-radius: 10px;
+    width: 331px;
+    height: 104px;
+    margin-top: 20px;
+}
+
+.operasi-hasil{
+    text-align: right;
+    color: #606060;
+    margin: 4% 2%;
+    height: 12%;
+}
+
+.nilai-hasil{
+    text-align: right;
+    color: #202020;
+    margin: 0% 2% 4% 2%;
+    font-size: 50px;
+}
